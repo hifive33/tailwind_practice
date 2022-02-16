@@ -8,7 +8,7 @@
       </svg>
     </a>
     <ul class="hidden group-hover:flex group-hover:flex-col">
-      <li *ngFor="let menu of menus" (click)="onClick(menu)" class="px-2 py-1 text-xs text-gray-100 bg-gray-800 hover:bg-gray-700 opacity-80 rounded cursor-pointer">
+      <li *ngFor="let menu of menus" (click)="onClick(menu)" class="px-2 py-1 text-xs text-gray-100 bg-gray-800 hover:bg-gray-700 opacity-80 first:rounded-t-md last:rounded-b-md cursor-pointer">
         {{menu.title}}
       </li>
     </ul>
