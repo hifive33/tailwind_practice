@@ -1,0 +1,145 @@
+<!-- Make a Basic Form -->
+<div class="bg-blue-200 min-h-screen py-32 px-10">
+  <h2
+    class="uppercase text-2xl font-black tracking-wider text-blue-400 mb-5 pl-2 md:w-2/3 lg:w-1/2 mx-auto"
+  >
+    Basic Form
+  </h2>
+
+  <div class="bg-white p-10 rounded-lg shadow md:w-3/4 lg:w-1/2 mx-auto">
+    <form action="">
+      <div class="mb-5">
+        <label for="name1" class="block mb-2 font-bold text-gray-600"
+          >Name</label
+        >
+        <input
+          type="text"
+          id="name1"
+          name="name1"
+          placeholder="Hello Tailwind"
+          class="border border-gray-300 shadow p-3 w-full rounded"
+        />
+      </div>
+
+      <div class="mb-10">
+        <label for="twitter1" class="block mb-2 font-bold text-gray-600"
+          >Twitter</label
+        >
+        <input
+          type="text"
+          id="twitter1"
+          name="twitter1"
+          placeholder="@hellotailwind"
+          class="border border-red-300 shadow p-3 w-full rounded"
+        />
+
+        <p class="text-sm text-red-400 mt-2">Twitter username is required.</p>
+      </div>
+
+      <button
+        type="button"
+        class="block w-full bg-blue-500 text-white font-bold p-4 rounded-lg"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- Make a Minimal Form -->
+<div class="bg-green-200 py-32 px-10 min-h-screen">
+  <h2
+    class="uppercase text-2xl font-black tracking-wider text-green-400 mb-5 pl-2 md:w-2/3 lg:w-1/2 mx-auto"
+  >
+    Minimal Form
+  </h2>
+
+  <div class="bg-white p-10 md:w-2/3 lg:w-1/2 mx-auto">
+    <form action="">
+      <div class="flex items-center mb-5">
+        <label
+          class="inline-block text-right w-20 mr-6 text-gray-500 font-bold"
+          for="name2"
+          >Name</label
+        >
+        <input
+          type="text"
+          name="name2"
+          id="name2"
+          placeholder="Hello Tailwind"
+          class="border-b-2 border-gray-400 focus:border-green-400 flex-1 py-2 placeholder-gray-300 outline-none"
+        />
+      </div>
+      <div class="flex items-center mb-10">
+        <label
+          class="inline-block text-right w-20 mr-6 text-gray-500 font-bold"
+          for="twitter2"
+          >Twitter</label
+        >
+        <input
+          type="text"
+          id="twitter2"
+          name="twitter2"
+          placeholder="@hellotailwind"
+          class="border-b-2 border-gray-400 focus:border-green-400 flex-1 py-2 placeholder-gray-300 outline-none"
+        />
+      </div>
+      <div class="text-right">
+        <button
+          type="button"
+          class="py-3 px-8 bg-green-500 text-white font-bold"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Make a Colorful Form -->
+<div class="bg-purple-600 py-32 px-10 min-h-screen text-xl">
+  <h2
+    class="uppercase text-2xl font-black tracking-wider text-purple-400 mb-5 pl-2 md:w-2/3 lg:w-1/2 mx-auto"
+  >
+    Colorful Form
+  </h2>
+
+  <div class="md:w-2/3 lg:w-1/2 mx-auto">
+    <form action="">
+      <div class="shadow-xl">
+        <div
+          class="flex items-center bg-purple-400 rounded-t-lg border-b border-purple-500"
+        >
+          <label for="name3" class="w-20 text-right mr-8 text-purple-200"
+            >Name</label
+          >
+          <input
+            type="text"
+            name="name3"
+            id="name3"
+            placeholder="Hello Tailwind"
+            class="flex-1 p-4 pl-0 bg-transparent placeholder-purple-300 outline-none text-white"
+          />
+        </div>
+        <div class="flex items-center bg-purple-400 rounded-b-lg mb-10">
+          <label for="twitter3" class="w-20 text-right mr-8 text-purple-200"
+            >Twitter</label
+          >
+          <input
+            type="text"
+            id="twitter3"
+            name="twitter3"
+            placeholder="@hellotailwind"
+            class="flex-1 p-4 pl-0 bg-transparent placeholder-purple-300 outline-none text-white"
+          />
+        </div>
+      </div>
+      <button
+        type="button"
+        class="block w-full rounded bg-pink-400 py-3 text-white font-bold shadow"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>

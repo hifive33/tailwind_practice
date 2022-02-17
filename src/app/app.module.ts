@@ -9,6 +9,7 @@ import { LayoutConceptsComponent } from './components/layout-concepts/layout-con
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { ComponentsCardsComponent } from './components/components-cards/components-cards.component';
 import { ComponentsButtonsComponent } from './components/components-buttons/components-buttons.component';
+import { ComponentsFormsComponent } from './components/components-forms/components-forms.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ComponentsButtonsComponent } from './components/components-buttons/comp
     NavbarComponent,
     ComponentsCardsComponent,
     ComponentsButtonsComponent,
+    ComponentsFormsComponent,
   ],
   imports: [
     BrowserModule,
