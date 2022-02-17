@@ -15,6 +15,7 @@ export class NavbarComponent {
     { title: 'Main Concepts', url: '/mainconcepts' },
     { title: 'Layout Concepts', url: '/layoutconcepts' },
     { title: 'Components: Cards', url: '/componentscards' },
+    { title: 'Components: Buttons', url: '/componentsbuttons' },
   ];
 
   constructor(private router: Router) {}

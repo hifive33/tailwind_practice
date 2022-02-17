@@ -8,6 +8,7 @@ import { CommonModule } from '@angular/common';
 import { LayoutConceptsComponent } from './components/layout-concepts/layout-concepts.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { ComponentsCardsComponent } from './components/components-cards/components-cards.component';
+import { ComponentsButtonsComponent } from './components/components-buttons/components-buttons.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ComponentsCardsComponent } from './components/components-cards/componen
     LayoutConceptsComponent,
     NavbarComponent,
     ComponentsCardsComponent,
+    ComponentsButtonsComponent,
   ],
   imports: [
     BrowserModule,
