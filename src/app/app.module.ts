@@ -7,13 +7,15 @@ import { MainConceptsComponent } from './components/main-concepts/main-concepts.
 import { CommonModule } from '@angular/common';
 import { LayoutConceptsComponent } from './components/layout-concepts/layout-concepts.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
+import { ComponentsCardsComponent } from './components/components-cards/components-cards.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainConceptsComponent,
     LayoutConceptsComponent,
-    NavbarComponent
+    NavbarComponent,
+    ComponentsCardsComponent,
   ],
   imports: [
     BrowserModule,

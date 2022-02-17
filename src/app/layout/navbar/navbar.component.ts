@@ -9,12 +9,12 @@ interface Menu {
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent {
   menus: Menu[] = [
     { title: 'Main Concepts', url: '/mainconcepts' },
     { title: 'Layout Concepts', url: '/layoutconcepts' },
+    { title: 'Components: Cards', url: '/componentscards' },
   ];
 
   constructor(private router: Router) {}
