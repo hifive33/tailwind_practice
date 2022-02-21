@@ -10,6 +10,7 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
 import { ComponentsCardsComponent } from './components/components-cards/components-cards.component';
 import { ComponentsButtonsComponent } from './components/components-buttons/components-buttons.component';
 import { ComponentsFormsComponent } from './components/components-forms/components-forms.component';
+import { CourseSiteComponent } from './components/course-site/course-site.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ComponentsFormsComponent } from './components/components-forms/componen
     ComponentsCardsComponent,
     ComponentsButtonsComponent,
     ComponentsFormsComponent,
+    CourseSiteComponent,
   ],
   imports: [
     BrowserModule,

@@ -17,6 +17,7 @@ export class NavbarComponent {
     { title: 'Components: Cards', url: '/componentscards' },
     { title: 'Components: Buttons', url: '/componentsbuttons' },
     { title: 'Components: Forms', url: '/componentsforms' },
+    { title: 'Course Site', url: '/coursesite' },
   ];
 
   constructor(private router: Router) {}
