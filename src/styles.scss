@@ -28,3 +28,7 @@
 body {
   overflow: overlay;
 }
+
+.header-nav-section {
+  @apply bg-gradient-to-br from-gray-100 to-gray-300;
+}
